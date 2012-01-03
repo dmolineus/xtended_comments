@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE contaopackage>
+<extension name="xtended_comments" date="20110811">
+    <author user="webstar" name="David Molineus" website="http://www.netzmacht.de" />
+    <copyright>&amp;copy 2010-2011 David Molineus</copyright>
+    <license>LGPL</license>
+    <classification type="free" category="plugin" />
+    <release version="30006" build="7" date="20100929" />
+    <contao minversion="20090009" maxversion="20090049" />
+    <language code="de">
+        <translator user="webstar" name="David Molineus" website="http://www.netzmacht.de" />
+        <searchtags>Kommentar,Kommentare,Gravatar,Avatar</searchtags>
+        <title>Erweitertes Kommentarmodul</title>
+        <teaser>Erweitertes Kommentarmodul mit (globalen) Avataren (www.gravatar.com) und Hervorhebung von Autoren-Kommentaren</teaser>
+        <description>&lt;p&gt;Mit dieser Erweiterung wird die Funktionalit&amp;auml;t des Kommentarmoduls 
+erweitert. So werden sowohl globale Avatare (www.gravatar.com) als auch 
+Avatare der Avatarerweiterung unters&amp;uuml;tzt. Au&amp;szlig;erdem k&amp;ouml;nnen Beitr&amp;auml;ge des 
+Autors hervorgehoben werden.&lt;/p&gt;
+&lt;p&gt;&amp;Uuml;ber Anregungen, Vorschl&amp;auml;ge w&amp;uuml;rde ich mich freuen.&lt;/p&gt;</description>
+        <releasenotes>&lt;h3&gt;0.3.0 beta1&lt;/h3&gt;
+&lt;p&gt;Kompatibilit&amp;auml;t mit Contao 2.9&lt;/p&gt;
+&lt;h3&gt;0.2.0 rc 1&lt;/h3&gt;
+&lt;p&gt;Unterst&amp;uuml;tzung der Avatar-Erweiterung wurde hinzugef&amp;uuml;gt. Wird ein 
+Kommentar von einem registrierten und angemeldeten Nutzer geschrieben, 
+so kann seine Einstellungen zum lokalen Avatar ber&amp;uuml;cksichtigt werden. 
+Dabei wird auch die Option das Gravatar nutze zu wollen (Erweiterung 
+Gravatar) ber&amp;uuml;cksichtigt.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Wichtig:&lt;/strong&gt; Das Template com_gravatar.tpl wurde angepasst. Eigene Templates m&amp;uuml;ssen ggf. auch angepasst werden.&lt;/p&gt;
+&lt;h3&gt;0.1.0. rc 1:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Hervorhebung der Kommentare des Autors&lt;/li&gt;
+&lt;li&gt;Globale Avatere f&amp;uuml;r Inhaltselement Kommentare, Modul Kommentare, 
+Kommentarfunktion des Nachrichtenlesers sowie Kommentarfunktion des 
+Nachrichtenlesers der Tag-Erweiterung
+&lt;/li&gt;
+&lt;/ul&gt;</releasenotes>
+        <manual link="http://www.netzmacht.de/lesen/items/anleitung-kommentarmodul.html" />
+    </language>
+    <language code="en">
+        <translator user="webstar" name="David Molineus" website="http://www.netzmacht.de" />
+        <searchtags>Comment,Comments,Gravatar,Avatar</searchtags>
+        <title>Extended comments module</title>
+        <teaser>Extended comments module with global avatares (www.gravatar.com) and Highlighting of comments of the author</teaser>
+        <description>&lt;p&gt;This modules extends the comments of TYPOlights comments module. The 
+support of global avatars (www.gravatar.com) and avatars of the avatar 
+extensions is added. Also there is the option to highlight comments of 
+the news oder article author.&lt;/p&gt;
+&lt;p&gt;I would like to hear about any suggestions, bug reports or feature requests.&lt;/p&gt;</description>
+        <releasenotes>&lt;h3&gt;0.3.0 beta1&lt;/h3&gt;
+&lt;p&gt;compatibility with Contao 2.9&lt;/p&gt;
+&lt;h3&gt;0.2.0 rc 1&lt;/h3&gt;
+&lt;p&gt;Integration of the avatar extension. If the option &#039;use avatar 
+extension&#039; is selected and a comment is posted by a loggedin user, his 
+avatar settings will be checked. There is also the support of the 
+gravatar extension. So if a user decides to prefer the gravatar the 
+gravatar will be shown instead of the local one. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Important:&lt;/strong&gt; Template com_gravatar.tpl has been modified.&lt;/p&gt;
+&lt;h3&gt;0.1.0. rc 1:&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Highlighting of the comments of the news author or article author.&lt;/li&gt;
+&lt;li&gt;Globale Avaters for ContentElement comments, Module comments, 
+comments feature of the newsreader, comments feature of the newsreader 
+of the tag cloud extension.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;
+You can find a German tutorial at my website.&lt;/p&gt;</releasenotes>
+        <manual link="http://www.netzmacht.de/lesen/items/anleitung-kommentarmodul.html" />
+    </language>
+</extension>
